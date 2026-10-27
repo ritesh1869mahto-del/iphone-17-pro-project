@@ -1,0 +1,110 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+html,
+body{
+    height: 100%;
+    width: 100%;
+}
+.main{
+    height: 100%;
+    width: 100%;
+    background-color: white;
+}
+.navbar{
+    height: 50px;
+    width: 100%;
+    color: white;
+    background-color: rgb(60, 59, 59);
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 25px;
+}
+a{
+    text-decoration: none;
+    font-size: 17px;
+    font-weight: 100;
+    color: white;
+}
+.center{
+    height: 80%;
+    width: 100%;
+    color: white;
+    background-color: black;
+    background-image: url(https://images.unsplash.com/photo-1772889604454-c639f9a1a7a6?q=80&w=1169&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=NHwxMjA3fDA%3D);
+    background-size: 30%;
+    background-position: center;
+    background-repeat: no-repeat;
+    text-align: center;
+    padding: 40px;
+}
+.center h1{
+    font-size: 30px;
+    font-weight: 600;
+
+}
+.center h2{
+    padding: 10px;
+    font-size: 18px;
+    font-weight: 100;
+}
+.button{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+    
+}
+.button button{
+font-size: 12px;
+font-weight: 100;
+padding: 10px 15px;
+color: white;
+background-color: royalblue;
+border-radius: 30px;
+border: none;
+}
+.middle{
+    height: 80%;
+    width: 100%;
+    background-color: white;
+    background-image: url(https://images.unsplash.com/photo-1779011008822-a3e2d17781d5?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=NHwxMjA3fDA%3D);
+    background-position: center;
+    background-size: 20%;
+    background-repeat: no-repeat;
+    align-items: center;
+    text-align: center;
+}
+.middle h3{
+    font-size: 35px;
+    font-weight: 700;
+    padding: 5px;
+}
+.middle p{
+    font-size: 15px;
+    font-weight: 100;
+    
+}
+
+ .key{
+      display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+
+}
+.key button{ 
+font-size: 12px;
+font-weight: 100;
+padding: 10px 15px;
+color: white;
+background-color: royalblue;
+border-radius: 30px;
+border: none;
+
+}
